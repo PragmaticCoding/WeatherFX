@@ -1,0 +1,52 @@
+.root{
+    -theme-font-family : 'Calibri';
+}
+
+
+.label-text {
+    -fx-font-family : -theme-font-family;
+    -fx-font-size: 17;
+    -fx-fill: #1d2d44;
+    -fx-font-weight: bold;
+}
+
+.heading-text {
+    -fx-font-family : -theme-font-family;
+    -fx-font-size: 24;
+    -fx-fill: #f0ebd8;
+    -fx-font-weight: bold;
+}
+
+.standard-border {
+   -fx-border-color : #3e5c76, #1d2d44;
+   -fx-border-insets: 0, 0 -1.4 -1.4 0;
+   -fx-border-radius : 4px, 6px;
+   -fx-border-width : 1.5px, 0 2px 2px 0;
+}
+
+.data-text {
+   -fx-font-family : theme-font-family;
+   -fx-text-fill: #0d1321 ;
+   -fx-font-size: 14;
+}
+
+.test-border {
+    -fx-border-color : red;
+    -fx-border-width : 0.5;
+}
+.test-border2 {
+    -fx-border-color : blue;
+    -fx-border-width : 0.5;
+}
+
+.info-box {
+    -fx-background-color: #489fb5;
+}
+
+.weather-box {
+    -fx-background-color: #f0ebd8;
+}
+
+
+
+
